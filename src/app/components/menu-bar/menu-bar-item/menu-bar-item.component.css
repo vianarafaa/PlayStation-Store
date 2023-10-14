@@ -1,0 +1,23 @@
+.menu-bar__item {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.menu-bar__item > ul {
+	display: flex;
+	list-style-type: none;
+	gap: 1rem;
+}
+
+.menu-bar__item > ul > li > a{
+	text-decoration: none;
+	padding: 5px;
+	color: #000;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.menu-bar__item > ul > li > a:hover{
+	color: #090979;
+	font-weight: 600;
+}
